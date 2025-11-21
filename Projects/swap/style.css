@@ -1,0 +1,34 @@
+.sq {
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.sq:nth-child(1){
+    background-color:red;
+}
+.sq:nth-child(2){
+    background-color:orange;
+}
+.sq:nth-child(3){
+    background-color:yellow;
+}
+.sq:nth-child(4){
+    background-color:green;
+}
+.BthConteiner{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.sq.active{
+    opacity: 0.9;
+    transition: 0.4;
+}
