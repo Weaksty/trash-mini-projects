@@ -16,7 +16,9 @@ function counter(){
             update()
         },
         get(){
+            console.log(count)
             return count
+            
         }
     }
 }
@@ -32,6 +34,8 @@ if(!taskInput){
     console.log('тут ничего нет код остановлен')
     return;
 }
+const li = document.createElement('li')
+li.textContent = taskInput
 counts.add()
 const delbth = document.createElement('button')
 delbth.textContent = 'Удалить'
@@ -41,11 +45,9 @@ delbth.addEventListener('click', () => {
     counts.minus()
 })
 
-const li = document.createElement('li')
-li.textContent = taskInput
 
-li.appendChild(delbth)
 taskList.appendChild(li)
+li.appendChild(delbth)
 taskInput.value = ''
 }) 
 

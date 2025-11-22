@@ -32,3 +32,11 @@
     opacity: 0.9;
     transition: 0.4;
 }
+.allButtonOff{
+    background-color: red;
+
+}
+.allButtonOn{
+    background-color: green;
+    
+}
