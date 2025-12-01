@@ -5,7 +5,13 @@
     justify-content: center;
     padding: 50px;
   }
-
+  .Back{
+  margin-right: 90%;
+  position: absolute;
+}
+a{
+    text-decoration: none;
+}
   .todo-container {
     background-color: #fff;
     padding: 20px 30px;
